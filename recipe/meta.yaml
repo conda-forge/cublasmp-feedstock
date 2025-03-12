@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: cublasmp
@@ -15,7 +15,7 @@ build:
 requirements:
   run:
     - libcal-dev 0.4.4.50
-    - libcublasmp-dev 0.3.1.663
+    - libcublasmp-dev 0.4.0.789
 
 test:
   commands:
