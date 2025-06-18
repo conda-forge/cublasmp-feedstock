@@ -3,17 +3,16 @@ About cublasmp-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cublasmp-feedstock/blob/main/LICENSE.txt)
 
-Home: https://developer.nvidia.com/cuda-toolkit
+Home: https://docs.nvidia.com/cuda/cublasmp/
 
-Package license: [LicenseRef-NVIDIA-End-User-License-Agreement](https://docs.nvidia.com/cuda/eula/index.html)
+Package license: [LicenseRef-NVIDIA-End-User-License-Agreement](https://docs.nvidia.com/cuda/cublasmp/license/index.html)
 
-Summary: Meta-package containing all NVIDIA cublasMp packages, not intended for use in a conda-build context.
+Summary: Meta-package containing all NVIDIA cuBLASMp packages, not intended for use in a conda-build context.
 
-Documentation: https://docs.nvidia.com/cuda/index.html
+Documentation: https://docs.nvidia.com/cuda/cublasmp/
 
-NVIDIA cublasMp is a high performance, multi-process, GPU accelerated library for distributed basic dense linear algebra.
+NVIDIA cuBLASMp is a high performance, multi-process, GPU accelerated library for distributed basic dense linear algebra.
 cuBLASMp is compatible with 2D block-cyclic data layout and provides PBLAS-like C APIs.
-A companion library, CAL, contains utilities to manage communicators and to synchronize processes in a safe way.
 
 
 Current build status
