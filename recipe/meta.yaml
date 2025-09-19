@@ -1,8 +1,8 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.1.65" %}
 
 package:
   name: cublasmp
-  version: {{ version }}
+  version: {{ version.split('.')[:3] | join('.') }}
 
 source:
   url: https://developer.download.nvidia.com/compute/cublasmp/redist/libcublasmp/LICENSE.txt
@@ -14,7 +14,7 @@ build:
 
 requirements:
   run:
-    - libcublasmp-dev 0.5.1.65
+    - libcublasmp-dev {{ version }}
 
 test:
   commands:
@@ -32,6 +32,8 @@ about:
   doc_url: https://docs.nvidia.com/cuda/cublasmp/
 
 extra:
+  compute-subdir: cublasmp
+  redist-json-name: libcublasmp
   recipe-maintainers:
     - almogsegal
     - mrogowski
