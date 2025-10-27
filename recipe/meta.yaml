@@ -32,8 +32,6 @@ about:
   doc_url: https://docs.nvidia.com/cuda/cublasmp/
 
 extra:
-  compute-subdir: cublasmp
-  redist-json-name: libcublasmp
   recipe-maintainers:
     - almogsegal
     - mrogowski
